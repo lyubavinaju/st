@@ -1,1 +1,4 @@
 /.idea/
+/client/node_modules/
+/e2e_tests/node_modules/
+/server/node_modules/
