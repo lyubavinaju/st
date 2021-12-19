@@ -4,7 +4,4 @@
 /server/node_modules/
 /spring-backend/spring-backend.iml
 /spring-backend/target/
-/client/node_modules/
-/e2e_tests/node_modules/
-/server/node_modules/
 /spring-backend/.mvn/
