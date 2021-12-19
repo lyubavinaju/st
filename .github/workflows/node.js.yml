@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  server-unit-tests:
 
     runs-on: ubuntu-latest
     defaults:
@@ -16,7 +16,7 @@ jobs:
         working-directory: ./server
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12.x, 14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
