@@ -29,6 +29,8 @@ jobs:
         cache-dependency-path: ./e2e_tests/package-lock.json
     - run : npm ci
       working-directory : ./e2e_tests
+    - run: npx playwright install 
+      working-directory : ./e2e_tests
     - run : npm test
       working-directory : ./e2e_tests
     - run : docker-compose down
