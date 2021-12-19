@@ -74,8 +74,9 @@ jobs:
     - uses: microsoft/playwright-github-action@v1
     - run: npm ci
     - run: npx playwright install 
-    - run: cd ../client/
-    - run: pwd
+    - run: |
+       cd ../client/
+       pwd
     - run: cd ../e2e_tests/
     - run: npm test
 
