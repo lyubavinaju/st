@@ -75,7 +75,7 @@ jobs:
     - run: npm ci
     - run: npx playwright install 
     - run: cd ../client/
-    - run: npm start
+    - run: pwd
     - run: cd ../e2e_tests/
     - run: npm test
 
