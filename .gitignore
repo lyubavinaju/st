@@ -5,3 +5,6 @@
 /spring-backend/spring-backend.iml
 /spring-backend/target/
 /spring-backend/.mvn/
+/selenide_tests/target/
+/selenide_tests/selenide_tests.iml
+/selenide_tests/build/

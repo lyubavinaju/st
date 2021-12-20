@@ -1,0 +1,17 @@
+{
+    "name": "TodoList1",
+    "todolist": [
+        {
+            "name": "todo1",
+            "done": false
+        },
+        {
+            "name": "todo2",
+            "done": false
+        },
+        {
+            "name": "todo3",
+            "done": true
+        }
+    ]
+}
