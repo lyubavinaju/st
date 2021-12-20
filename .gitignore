@@ -5,3 +5,5 @@
 /spring-backend/spring-backend.iml
 /spring-backend/target/
 /spring-backend/.mvn/
+/spring-backend/.allure/
+/spring-backend/.idea/
