@@ -11,6 +11,9 @@ Hw2:</br>
 Main часть: 
 Сделать сервис на Java+Spring+любая DB (или NodeJS + DI tool), который имеет как мин 1 Controller. Написать Unit и Component тесты для этого сервиса. Использовать TestContainers для одного теста с DB. Использовать Mockito для мокирования тестов с внешним сервисом. Написать документацию(README) какие тесты еще необходимо написать, но вы не успели.<br>
 
+Hw4 (hw-4 branch):<br>
+Allure reporting для тестов из spring-backend.
+
 Hw7 (hw-7 branch):<br>
 Main часть:
 Написать e2e тесты, используя Selenide.
