@@ -7,3 +7,6 @@
 /spring-backend/.mvn/
 /spring-backend/.allure/
 /spring-backend/.idea/
+/selenide_tests/target/
+/selenide_tests/selenide_tests.iml
+/selenide_tests/build/
