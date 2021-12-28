@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {TodoItem} from "./TodoItem";
 
 export function Todolist() {
@@ -16,7 +16,7 @@ export function Todolist() {
   })
 
   return (
-      <div>
+      <div className="todolist">
         <h1>{name}</h1>
         <div>
           {
